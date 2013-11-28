@@ -1,42 +1,42 @@
 # Welcome
 
-Welcome to your wiki! This is the default page we've installed for your convenience. Go ahead and edit it.
+Welcome to the AMIDST wiki! This is a collection of various documents to aid in
+the usage of the "Advanced Minecraft Interface and Data/Structure Tracking"
+program - aka AMIDST.
 
-## Wiki features
+## FAQ
 
-This wiki uses the [Markdown](http://daringfireball.net/projects/markdown/) syntax.
+A lot of questions pop up over and over, this section is here to answer some of
+the common ones.
 
-The wiki itself is actually a git repository, which means you can clone it, edit it locally/offline, add images or any other file type, and push it back to us. It will be live immediately.
+### Showing dungeons
 
-Go ahead and try:
+...
 
-```
-$ git clone https://bitbucket.org/skiphs/amidst.git/wiki
-```
+### Village/temple/witch hut/stronghold/spawn point is not where AMIDST says it is!
 
-Wiki pages are normal files, with the .md extension. You can edit them locally, as well as creating new ones.
+...
 
-## Syntax highlighting
+### What colour is the biome I'm looking for?
 
+Some of the good AMIDST users have made a [biome colour legend](biomecolors.md).
+Note that in AMIDST 3.5 and onwards you will be able to define your own biome
+colours, e.g., to make one particular biome stand out more.
 
-You can also highlight snippets of text (we use the excellent [Pygments][] library).
+## Usage help
 
-[Pygments]: http://www.pygments.org/
+To avoid problems, be sure to specifically check the Minecraft profile you wish
+to use for AMIDST's biome map rendering. Don't use the "(Default)" profile.
 
+Note that AMIDST cannot currently read biomes from saved worlds, so if you have
+a world/map from e.g. pre-1.7 and try to render it with a Minecraft 1.7 profile,
+your already explored chunks will be shown in AMIDST as if they'd been generated
+with 1.7.
 
-Here's an example of some Python code:
+## Usage permissions
 
-```
-#!python
-
-def wiki_rocks(text):
-    formatter = lambda t: "funky"+t
-    return formatter(text)
-```
-
-
-You can check out the source of this page to see how that's done, and make sure to bookmark [the vast library of Pygment lexers][lexers], we accept the 'short name' or the 'mimetype' of anything in there.
-[lexers]: http://pygments.org/docs/lexers/
-
-
-Have fun!
+AMIDST comes with absolutely *no* warranty. It is licenced under the
+[GNU General Public License version 2](https://bitbucket.org/skiphs/amidst/raw/master/LICENSE.txt),
+which basically means that you're free to make changes to the program and
+redistribute it, as long as your changes and redistribution is also licenced the
+same way.
