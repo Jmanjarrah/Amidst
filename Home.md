@@ -4,6 +4,10 @@ Welcome to the AMIDST wiki! This is a collection of various documents to aid in
 the usage of the "Advanced Minecraft Interface and Data/Structure Tracking"
 program - aka AMIDST.
 
+## Table of contents
+
+[TOC]
+
 ## FAQ
 
 A lot of questions pop up over and over, this section is here to answer some of
