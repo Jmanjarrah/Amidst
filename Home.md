@@ -23,7 +23,7 @@ the common ones.
 
 Many people have asked why AMIDST doesn't show the locations of dungeons.
 
-The positions of dungeons are decided upon much later in the world generation process than the point at which AMIDST gets all the information it needs to produce a 2D map.  Going any farther would slow down AMIDST immensely and also even though the dungeon locations are predictable from the world seed, even the MineCraft world generator software doesn't map them until the actual chunks for the world that contain them are actually created and stored on disk. To ask AMIDST to locate dungeons would be to ask AMIDST to create the entire world which is something that even Minecraft doesn't do until a player gets within a certain distance of the chunk in question. 
+The positions of dungeons are decided upon much later in the world generation process than the point at which AMIDST gets all the information it needs to produce a 2D map.  Going any farther would slow down AMIDST immensely and also even though the dungeon locations are predictable from the world seed, even the MineCraft world generator software doesn't map them until the actual chunks for the world that contain them are created and stored on disk. To ask AMIDST to locate dungeons would be to ask AMIDST to create the entire world which is something that even Minecraft doesn't do. MineCraft delays chunk creation until a player gets within a certain distance of the chunk in question. 
 
 
 ...
