@@ -1,5 +1,4 @@
-
-Biome colour | Biome name (id)
+Biome color | Biome name (id)
 :----------: | ---------------
 ![Ocean (0)](images/biome-color-0.png) | Ocean (0)
 ![Plains (1)](images/biome-color-1.png) | Plains (1)
@@ -74,7 +73,7 @@ Biome colour | Biome name (id)
 ![Cold Taiga M (158)](images/biome-color-158.png) | Cold Taiga M (158)
 ![Cold Taiga Hills M (159)](images/biome-color-159.png) | Cold Taiga Hills M (159)
 ![Mega Spruce Taiga (160)](images/biome-color-160.png) | Mega Spruce Taiga (160)
-![Mega Spruce Taiga (161)](images/biome-color-161.png) | Mega Spruce Taiga (161)
+![Mega Spruce Taiga (161)](images/biome-color-161.png) | Mega Spruce Taiga Hills(161)
 ![Extreme Hills+ M (162)](images/biome-color-162.png) | Extreme Hills+ M (162)
 ![Savanna M (163)](images/biome-color-163.png) | Savanna M (163)
 ![Savanna Plateau M (164)](images/biome-color-164.png) | Savanna Plateau M (164)
