@@ -32,11 +32,11 @@ The positions of dungeons are decided upon much later in the world generation pr
 
 ...
 
-### What colour is the biome I'm looking for?
+### What color is the biome I'm looking for?
 
-Some of the good AMIDST users have made a [biome colour legend](biomecolors.md).
+Some of the good AMIDST users have made a [biome color legend](biomecolors.md).
 Note that in AMIDST 3.5 and onwards you will be able to define your own biome
-colours, e.g., to make one particular biome stand out more.
+colors, e.g., to make one particular biome stand out more.
 
 ## Usage help
 
@@ -50,8 +50,8 @@ with 1.7.
 
 ## Usage permissions
 
-AMIDST comes with absolutely *no* warranty. It is licenced under the
+AMIDST comes with absolutely *no* warranty. It is licensed under the
 [GNU General Public License version 2](https://bitbucket.org/skiphs/amidst/raw/master/LICENSE.txt),
 which basically means that you're free to make changes to the program and
-redistribute it, as long as your changes and redistribution is also licenced the
+redistribute it, as long as your changes and redistribution is also licensed the
 same way.
