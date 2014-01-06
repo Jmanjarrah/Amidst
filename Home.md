@@ -43,10 +43,12 @@ colors, e.g., to make one particular biome stand out more.
 To avoid problems, be sure to specifically check the Minecraft profile you wish
 to use for AMIDST's biome map rendering. Don't use the "(Default)" profile.
 
-Note that AMIDST cannot currently read biomes from saved worlds, so if you have
-a world/map from e.g. pre-1.7 and try to render it with a Minecraft 1.7 profile,
-your already explored chunks will be shown in AMIDST as if they'd been generated
-with 1.7.
+Note that AMIDST does not read biome maps from saved worlds, what it does is produce a map of the world that would be created if a particular seed were entered to the version of Minecraft you have told Amidst to use.
+If you tell Amidst to load a seed from a world file or folder all it does is read the seed value stored in the level.dat file and then display the map of the world that seed will produce using the profile you chose when you started the program.
+If the world that you pointed Amidst at was created with a different world generator than the one in Amidst's current profile Amidst will not display the correct map.
+There is no way, currently, to establish what world generator was used to produce a given world. That information is not stored in level.dat.
+That being said, make sure that you strive to use the same profile for Amidst that was used to create the world with Minecraft.
+
 
 ## Usage permissions
 
